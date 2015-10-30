@@ -13,6 +13,7 @@
 		8A40C14C1BE3431E002632E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A40C14A1BE3431E002632E4 /* Main.storyboard */; };
 		8A40C14E1BE3431E002632E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40C14D1BE3431E002632E4 /* Assets.xcassets */; };
 		8A40C1511BE3431E002632E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A40C14F1BE3431E002632E4 /* LaunchScreen.storyboard */; };
+		8A40C15A1BE35651002632E4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C1591BE35651002632E4 /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8A40C14D1BE3431E002632E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A40C1501BE3431E002632E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A40C1521BE3431E002632E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A40C1581BE35651002632E4 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		8A40C1591BE35651002632E4 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				8A40C14F1BE3431E002632E4 /* LaunchScreen.storyboard */,
 				8A40C1521BE3431E002632E4 /* Info.plist */,
 				8A40C1411BE3431E002632E4 /* Supporting Files */,
+				8A40C1581BE35651002632E4 /* ListViewController.h */,
+				8A40C1591BE35651002632E4 /* ListViewController.m */,
 			);
 			path = WorkTimeManage;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				8A40C1491BE3431E002632E4 /* ViewController.m in Sources */,
 				8A40C1461BE3431E002632E4 /* AppDelegate.m in Sources */,
+				8A40C15A1BE35651002632E4 /* ListViewController.m in Sources */,
 				8A40C1431BE3431E002632E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +307,7 @@
 				8A40C1571BE3431E002632E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
