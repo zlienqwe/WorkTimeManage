@@ -13,19 +13,12 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="center" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgY-oa-QFu">
-                                <rect key="frame" x="274" y="201" width="105" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYB-fT-cbI">
-                                <rect key="frame" x="343" y="336" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYB-fT-cbI">
+                                <rect key="frame" x="284" y="285" width="31" height="30"/>
                                 <animations/>
                                 <state key="normal" title="stop"/>
                                 <connections>
@@ -33,9 +26,22 @@
                                     <segue destination="QQa-2I-nMw" kind="show" id="X76-4G-l8n"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgY-oa-QFu">
+                                <rect key="frame" x="300" y="60" width="0.0" height="0.0"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XgY-oa-QFu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IEL-2V-0Fh"/>
+                            <constraint firstItem="EYB-fT-cbI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Tx2-vE-mkF"/>
+                            <constraint firstItem="EYB-fT-cbI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dBW-fE-45u"/>
+                            <constraint firstItem="XgY-oa-QFu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="zWW-T5-FvE"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="timeLabel" destination="XgY-oa-QFu" id="PAD-Sr-rqq"/>
